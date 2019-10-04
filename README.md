@@ -16,6 +16,6 @@ you just select the number of discs to transfer and let it do the magic.
 clone the project and open the html file
 
 or click here
-[play game]('http://www.netlify.wanyekitower.com')
+[play game]('http://wanyekitower.netlify.com')
 
 ```

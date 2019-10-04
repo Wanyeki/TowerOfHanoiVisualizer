@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Towers of hanoi vitualizer</title>
+    <link rel="stylesheet" href="towers.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="title">Select the number of discs to transfer</h3>
+                <select name="disc" id="" class="numbers">
+                    <option value="5" class="number">5</option>
+                    <option value="4" class="number">4</option>
+                    <option value="3" class="number">3</option>
+                    <option value="2" class="number">2</option>
+                    <option value="1" class="number">1</option>
+                </select>
+            <button class="play">play</button>
+
+            <div class="discs-wrapper">
+                <div class="tower-A holder">
+                        <div class="bar"></div>
+                        <div class="base">A</div>
+
+                </div>
+                        
+                <div class="tower-B holder">
+                        <div class="bar"></div>
+                        <div class="base">B</div>
+                </div>
+                <div class="tower-C holder">
+                        <div class="bar"></div>
+                        <div class="base">C</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="tower.js"></script>
+</html>

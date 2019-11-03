@@ -2,6 +2,8 @@
 ___
 > An automatic tower of hanoi game solver.
 > you just select the number of discs to transfer and let it do the magic.
+## screenshot
+![screenshot](/screenshot.png)
 
 ## what's Implemented
 
